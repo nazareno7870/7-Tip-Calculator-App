@@ -15,30 +15,66 @@
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="left-container">
 
-  Bill
+      <div class="bill">
+        <label for="Amount">Bill</label>
+        <input type="number" id="Amount">
+      </div>
 
-  Select Tip %
-  5%
-  10%
-  15%
-  25%
-  50%
-  Custom
+      <div class="select">
+        <h3>Select Tip %</h3>
+        <div class="buttons">
+          <button>5%</button>
+          <button>10%</button>
+          <button>15%</button>
+          <button>25%</button>
+          <button>50%</button>
+          <input type="number"  id="customTip" placeholder="Custom">
+        </div>
+      </div>
 
-  Number of People
+      <div class="diners">
+        <h3>Number of People</h3>
+        <input type="number"  id="diners" >
+      </div>
 
-  Tip Amount
-  / person
+    </div>
 
-  Total
-  / person
+    <div class="right-container">
 
-  Reset
-  
+      <div class="tip-amount">
+
+        <div class="per-person">
+          <h4>Tip Amount</h4>
+          <p>/ person</p>
+        </div>
+
+        <h1>$4.00</h1>
+
+      </div>
+
+      <div class="total-amount">
+
+        <div class="per-person">
+          <h4>Total</h4>
+          <p>/ person</p>
+        </div>
+
+        <h1>$4.00</h1>
+
+      </div>
+
+      <button>RESET</button>
+
+    </div>
+
+  </div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/nazareno7870">Nazareno del Río</a>.
   </div>
 </body>
 </html>
