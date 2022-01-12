@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-
+  <script src="./app.js"></script>
   <title>Tip calculator app</title>
 
 </head>
@@ -29,12 +29,12 @@
       <div class="select">
         <h3>Select Tip %</h3>
         <div class="buttons">
-          <button>5%</button>
-          <button>10%</button>
-          <button>15%</button>
-          <button>25%</button>
-          <button>50%</button>
-          <input type="number"  id="customTip" placeholder="Custom">
+          <button class="btn-tip">5%</button>
+          <button class="btn-tip">10%</button>
+          <button class="btn-tip">15%</button>
+          <button class="btn-tip">25%</button>
+          <button class="btn-tip">50%</button>
+          <input type="number"  id="customTip" placeholder="Custom" pattern="\d*">
         </div>
       </div>
 
@@ -55,7 +55,7 @@
           <p>/ person</p>
         </div>
 
-        <h1>$0.00</h1>
+        <h1 id="tipAmount"></h1>
 
       </div>
 
@@ -66,11 +66,11 @@
           <p>/ person</p>
         </div>
 
-        <h1>$0.00</h1>
+        <h1 id="totalAmount"></h1>
 
       </div>
 
-      <button>RESET</button>
+      <button id="resetBtn">RESET</button>
 
     </div>
 
@@ -80,6 +80,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/nazareno7870">Nazareno del Río</a>.
   </div>
-  
+
 </body>
 </html>

@@ -147,12 +147,23 @@ h1{
     font-size: 30px;
     color: var(--strong-cyan);
 }
-.right-container button{
+
+#resetBtn{
     background-color: #0d686d;
     color: var(--v-dark-cyan);
     width: 100%;
 }
+
 .right-container button:hover{
+    background-color: var(--strong-cyan);
+}
+
+.selected{
+    background-color: var(--strong-cyan);
+    color: var(--v-dark-cyan);
+}
+
+.usable{
     background-color: var(--strong-cyan);
 }
 
